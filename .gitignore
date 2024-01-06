@@ -1,0 +1,43 @@
+# Laravel specific
+/vendor/
+/node_modules/
+/public/storage
+/public/hot
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant/
+Homestead
+npm-debug.log
+
+# Node.js specific
+logs
+*.log
+*.lock
+.pnpm
+.pnpm-lock.yaml
+.pnpm-store
+.node_modules/
+/dist/
+/npm-debug.log*
+/yarn-error.log*
+/.pnp/
+.pnp.js
+
+# Ignore local development files
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Ignore Mac and Linux system files
+.DS_Store
+Thumbs.db
+.cache/
+.idea/
+
+# Ignore Homestead Virtual Machine
+Homestead.yaml
+Homestead.json
+/.vagrant/
